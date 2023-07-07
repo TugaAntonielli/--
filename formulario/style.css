@@ -36,3 +36,30 @@
     background-color:black;
     transition: 0.3s;
 }
+#buscador{
+    border-radius: 13px;
+    padding: 0;
+    height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px 4px black;
+    border: 2px solid rgb(127, 123, 123);
+}
+#buscador::placeholder{
+    color:  rgb(154, 153, 153);
+}
+
+#imagen{
+    border-radius: 15px;
+    border: none;
+    height: 28px;
+    box-shadow: 2px 2px 4px black;
+    background-image: linear-gradient(to bottom,rgba(0, 76, 255, 0.726),  rgb(22, 0, 150));
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color:rgb(28, 96, 255);
+}
